@@ -4,7 +4,7 @@ metadata:
   name: helloworld-app-route
   labels:
     app: helloworld-app
-    version: v1
+    version: v2
 spec:
   to:
     kind: Service

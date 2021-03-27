@@ -13,7 +13,7 @@ spec:
     metadata:
       labels:
         app: helloworld-app
-        version: v1
+        version: v2
     spec:
       containers:
       - name: helloworld-app-container
