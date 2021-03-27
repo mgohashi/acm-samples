@@ -4,6 +4,7 @@ metadata:
   name: helloworld-app-svc
   labels:
     app: helloworld-app
+    version: v1
 spec:
   type: NodePort
   ports:
