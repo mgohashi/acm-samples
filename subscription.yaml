@@ -2,14 +2,14 @@ apiVersion: apps.open-cluster-management.io/v1
 kind: Subscription
 metadata:
   name: helloworld-app-subscription
-  namespace: helloworld-dev
+  namespace: helloworld
   labels:
     app: helloworld-app
   annotations:
     apps.open-cluster-management.io/github-path: helloworld
-    apps.open-cluster-management.io/github-branch: dev
+    apps.open-cluster-management.io/github-branch: master
 spec:
-  channel: helloworld-ch/helloworld-channel-dev
+  channel: helloworld-ch/helloworld-channel
   placement:
     placementRef:
       name: helloworld-app-placement

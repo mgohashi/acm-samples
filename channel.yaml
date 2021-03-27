@@ -1,7 +1,7 @@
 apiVersion: apps.open-cluster-management.io/v1
 kind: Channel
 metadata:
-  name: helloworld-channel-dev
+  name: helloworld-channel
   namespace: helloworld-ch
 spec:
   type: GitHub

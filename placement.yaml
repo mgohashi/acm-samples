@@ -2,7 +2,7 @@ apiVersion: apps.open-cluster-management.io/v1
 kind: PlacementRule
 metadata:
   name: helloworld-app-placement
-  namespace: helloworld-dev
+  namespace: helloworld
   labels:
     app: helloworld-app
 spec:
