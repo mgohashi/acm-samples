@@ -5,4 +5,4 @@ metadata:
   namespace: helloworld-ch
 spec:
   type: GitHub
-  pathname: https://github.com/mgohashi/acm-samples.git
+  pathname: https://github.com/mgohashi/acm-app.git

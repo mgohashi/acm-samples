@@ -6,7 +6,7 @@ metadata:
   labels:
     app: helloworld-app
   annotations:
-    apps.open-cluster-management.io/github-path: helloworld
+    apps.open-cluster-management.io/github-path: .
     apps.open-cluster-management.io/github-branch: master
 spec:
   channel: helloworld-ch/helloworld-channel
